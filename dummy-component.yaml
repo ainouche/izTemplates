@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Dummy Component
+  description: Dummy Component by RJ
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
