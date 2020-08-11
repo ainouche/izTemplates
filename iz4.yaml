@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: iz4
+  description: iz4 for testing
+  type: service
+  lifecycle: production
+  owner: guest
