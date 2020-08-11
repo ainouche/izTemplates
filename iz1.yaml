@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: iz1-test
+  name: iz1
   description: iz1 for testing
+spec:
   type: service
   lifecycle: production
   owner: guest
