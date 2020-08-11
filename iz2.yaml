@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: iz2
   description: iz2 for testing
+spec:
   type: service
   lifecycle: production
   owner: guest1
