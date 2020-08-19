@@ -4,7 +4,7 @@ metadata:
   name: 'Jenkins'
   description: 'This is jenkins component'
   annotations:
-    backstage.io/jenkins-github-folder: 'blr-t3004-1/testJob'
+    backstage.io/jenkins-github-folder: 'testFolder/testJob'
 spec:
   type: service
   lifecycle: experimental
