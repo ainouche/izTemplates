@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: iz1
-  description: iz1 for testing
+  name: swb2-demo
+  description: demo for testing
 spec:
   type: service
   lifecycle: production
