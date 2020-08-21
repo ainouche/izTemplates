@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: iz2
-  description: iz2 for testing
+  name: blr-dem-1
+  description: iz for testing
 spec:
   type: service
   lifecycle: production
-  owner: guest1
+  owner: guest
