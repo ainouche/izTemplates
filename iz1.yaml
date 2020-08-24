@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: swb2-demo
+  name: blr-t640-2
   description: demo for testing
 spec:
   type: service
