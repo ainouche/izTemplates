@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: blr-dem-1
+  name: blr-t640-1
   description: iz for testing
 spec:
   type: service
