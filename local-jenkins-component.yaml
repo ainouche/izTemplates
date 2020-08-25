@@ -1,11 +1,10 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: 'Jenkins'
-  description: 'This is jenkins component'
-  annotations:
-    backstage.io/jenkins-github-folder: 'Adminstration/pipeline-tests-e2e'
-spec:
-  type: service
-  lifecycle: experimental
-  owner: Guest
+proxy:
+  '/jenkins/api':
+    target: 'http://localhost:8080' # your Jenkins URL
+    changeOrigin: true
+    headers:
+      Authorization:
+        $secret:
+          env: JENKINS_BASIC_AUTH_HEADER
+    pathRewrite:
+      '^/proxy/jenkins/api/': '/'
