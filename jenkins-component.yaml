@@ -4,7 +4,7 @@ metadata:
   name: 'Jenkins'
   description: 'This is jenkins component'
   annotations:
-    backstage.io/jenkins-github-folder: 'SAE/jenkins-pipeline-control-tower-api'
+    backstage.io/jenkins-github-folder: 'SAE/JCON-jenkins-pipeline-control-tower-api'
 spec:
   type: service
   lifecycle: experimental
