@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 'Local Jenkins'
+  name: 'Jenkins'
   description: 'Local Jenkins to test backstage'
   annotations:
     backstage.io/jenkins-github-folder: 'folder1/job1'
