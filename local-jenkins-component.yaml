@@ -1,10 +1,11 @@
-proxy:
-  '/jenkins/api':
-    target: 'http://localhost:8080' # your Jenkins URL
-    changeOrigin: true
-    headers:
-      Authorization:
-        $secret:
-          env: JENKINS_BASIC_AUTH_HEADER
-    pathRewrite:
-      '^/proxy/jenkins/api/': '/'
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'Local Jenkins'
+  description: 'Local Jenkins to test backstage'
+  annotations:
+    backstage.io/jenkins-github-folder: 'folder1/job1'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: ainouche
